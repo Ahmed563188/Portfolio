@@ -335,7 +335,7 @@ a {
     }
 
     .display-h {
-        align-items: stretch;
+        align-items: center;
     }
 
     .head__left,
