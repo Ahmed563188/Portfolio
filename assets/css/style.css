@@ -272,6 +272,8 @@ a {
 
 /* -----------------------------end main----------------------------- */
 
+/* -----------------------------start footer----------------------------- */
+
 .footer {
     margin-top: 80px;
 }
@@ -321,10 +323,11 @@ a {
     color: var(--subtext);
 }
 
+/* -----------------------------end footer----------------------------- */
 
 
 
-/* Tablets (max-width: 900px) */
+
 @media (max-width: 900px) {
     .container {
         width: 95%;
@@ -361,7 +364,6 @@ a {
 
 }
 
-/* Mobile (max-width: 600px) */
 @media (max-width: 600px) {
     body {
         font-size: 15px;
