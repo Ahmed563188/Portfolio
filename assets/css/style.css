@@ -1,0 +1,178 @@
+:root {
+    --whitecl: #fff;
+    --maintext: #333;
+    --subtext: #bebebe;
+    --btnbg: #333;
+    --bggradient: linear-gradient(135deg, #444444, #696969, #cacaca);
+}
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--bggradient);
+    color: var(--whitecl);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* -----------------------------frame----------------------------- */
+
+.display-h {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.display-v {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* -----------------------------frame----------------------------- */
+
+/* -----------------------------start nav----------------------------- */
+
+.nav {
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 1px solid var(--whitecl);
+    padding: 10px 30px;
+}
+
+.nav__left {
+    gap: 20px;
+}
+
+.nav__left img {
+    width: 40px;
+}
+
+.nav__left h1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav__right a {
+    position: relative;
+    padding: 0 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(--whitecl);
+}
+
+.nav__right a::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 1px;
+    left: 0;
+    bottom: -4px;
+    background-color: var(--whitecl);
+    transition: 0.7s;
+
+}
+
+.nav__right a:hover::after {
+    width: 100%;
+}
+
+/* -----------------------------end nav----------------------------- */
+
+/* -----------------------------start head----------------------------- */
+
+.head {
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.head__left {
+    width: 50%;
+}
+
+.head__left__img img {
+    width: 320px;
+    filter: grayscale(1);
+    transition: 1s;
+
+}
+
+.head__left__img img:hover {
+    filter: grayscale(0);
+}
+
+.head__right h4 {
+    font-size: 12px;
+}
+
+.head__right h1 {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 0px;
+    transition: 1s;
+}
+
+.head__right h1:hover {
+    letter-spacing: 10px;
+}
+
+.head__right h2 {
+    color: var(--subtext);
+    font-weight: 100;
+}
+
+.head__right__button {
+    padding: 10px 0;
+
+}
+
+.head__right__button button {
+    padding: 10px 40px;
+    background-color: var(--btnbg);
+    color: var(--whitecl);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.head__right__button button:hover {
+    padding: 10px 60px;
+    background-color: transparent;
+    border: 1px solid var(--whitecl);
+    border-radius: 30px;
+}
+
+.head__right__links {
+    gap: 20px;
+}
+
+
+.head__right__links img {
+    width: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+.head__right__links img:hover {
+    filter: drop-shadow(0 0 5px var(--whitecl));
+    transform: scale(1.1);
+}
+
+/* -----------------------------end head----------------------------- */
