@@ -43,6 +43,28 @@ body {
     flex-wrap: wrap;
 }
 
+.main__button {
+    padding: 10px 40px;
+    background-color: var(--btnbg);
+    color: var(--whitecl);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main__button:hover {
+    padding: 10px 60px;
+    background-color: transparent;
+    border: 1px solid var(--whitecl);
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--whitecl);
+}
+
 /* -----------------------------frame----------------------------- */
 
 /* -----------------------------start nav----------------------------- */
@@ -71,8 +93,6 @@ body {
     position: relative;
     padding: 0 10px;
     margin-left: 10px;
-    text-decoration: none;
-    color: var(--whitecl);
 }
 
 .nav__right a::after {
@@ -105,7 +125,7 @@ body {
 }
 
 .head__left__img img {
-    width: 320px;
+    width: 300px;
     filter: grayscale(1);
     transition: 1s;
 
@@ -141,22 +161,6 @@ body {
 
 }
 
-.head__right__button button {
-    padding: 10px 40px;
-    background-color: var(--btnbg);
-    color: var(--whitecl);
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.head__right__button button:hover {
-    padding: 10px 60px;
-    background-color: transparent;
-    border: 1px solid var(--whitecl);
-    border-radius: 30px;
-}
 
 .head__right__links {
     gap: 20px;
@@ -176,3 +180,85 @@ body {
 }
 
 /* -----------------------------end head----------------------------- */
+
+/* -----------------------------start main----------------------------- */
+.main__header {
+    text-align: center;
+}
+
+.main__header h3 {
+    color: var(--subtext);
+    font-size: 12px;
+}
+
+.main__header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.main__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.main__cards__card {
+    width: calc(33% - 10px);
+    background-color: #ffffff3b;
+    padding: 20px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.main__cards__card:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 5px 10px #b8b8b8);
+
+}
+
+.main__cards__card__img {
+    background-color: #00000063;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.main__cards__card__img img {
+    border-radius: 10px;
+    height: 100px;
+    filter: blur(2px);
+}
+
+.main__cards__card:hover img {
+    filter: blur(0);
+}
+
+.main__cards__card__img h6 {
+    padding: 10px 0;
+}
+
+.main__cards__card__description h2 {
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.main__cards__card__button {
+    gap: 10px;
+    justify-content: center;
+}
+
+.main__cards__card__button button {
+    padding: 10px 20px;
+    font-size: 10px;
+    width: 90px;
+}
+
+.main__cards__card__button button:hover {
+    padding: 10px 25px;
+    font-size: 13px;
+}
+
+/* -----------------------------end main----------------------------- */
