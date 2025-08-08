@@ -1,0 +1,18 @@
+[
+  {
+    "image":"assets/images/Clarity.jpg",
+    "title": "Clarity Landing Page",
+    "languages": "HTML & CSS" 
+  },
+  {
+    "image":"assets/images/Lockscout.jpg",
+    "title": "Lockscout Landing Page",
+    "languages": "HTML & CSS" 
+        
+  },
+  {
+    "image":"assets/images/Fashion-E-commerce.jpg",
+    "title": "Fashion-E-commerce",
+    "languages": "HTML & CSS & JS" 
+  }
+]

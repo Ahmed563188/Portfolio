@@ -3,7 +3,8 @@
     --maintext: #333;
     --subtext: #bebebe;
     --btnbg: #333;
-    --bggradient: linear-gradient(135deg, #444444, #696969, #cacaca);
+    --bggradient: linear-gradient(135deg, #252525, #696969, #cacaca);
+    --bgcard: #ffffff3b;
 }
 
 * {
@@ -182,6 +183,11 @@ a {
 /* -----------------------------end head----------------------------- */
 
 /* -----------------------------start main----------------------------- */
+
+.main {
+    margin-top: 60px;
+}
+
 .main__header {
     text-align: center;
 }
@@ -198,23 +204,25 @@ a {
 
 .main__cards {
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 20px;
     flex-wrap: wrap;
-    row-gap: 40px;
+
 }
 
 .main__cards__card {
-    width: calc(33% - 10px);
-    background-color: #ffffff3b;
+    width: 100%;
+    background-color: var(--bgcard);
     padding: 20px;
     border-radius: 25px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .main__cards__card:hover {
     transform: scale(1.1);
-    filter: drop-shadow(0 5px 10px #b8b8b8);
+    filter: drop-shadow(0 5px 10px var(--whitecl));
 
 }
 
@@ -227,8 +235,9 @@ a {
 
 .main__cards__card__img img {
     border-radius: 10px;
-    height: 100px;
+    height: 140px;
     filter: blur(2px);
+    width: 300px;
 }
 
 .main__cards__card:hover img {
@@ -262,3 +271,52 @@ a {
 }
 
 /* -----------------------------end main----------------------------- */
+
+.footer {
+    margin-top: 80px;
+}
+
+.footer__header {
+    text-align: center;
+}
+
+.footer__header h3 {
+    color: var(--subtext);
+    font-size: 12px;
+}
+
+.footer__header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.footer__mail {
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: var(--bgcard);
+    width: 35%;
+    margin: auto;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.7s;
+}
+
+.footer__mail:hover {
+    filter: drop-shadow(0 0 5px var(--whitecl));
+}
+
+.footer__mail__a {
+    gap: 10px;
+}
+
+.footer__mail img {
+    background-color: var(--maintext);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer__copyright {
+    margin: 30px 0;
+    color: var(--subtext);
+}
