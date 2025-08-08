@@ -45,20 +45,20 @@ body {
 }
 
 .main__button {
-    padding: 10px 40px;
+    padding: .625rem 2.5rem;
     background-color: var(--btnbg);
     color: var(--whitecl);
     border: 0;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     cursor: pointer;
     transition: 0.5s;
 }
 
 .main__button:hover {
-    padding: 10px 60px;
+    padding: .625rem 3.75rem;
     background-color: transparent;
-    border: 1px solid var(--whitecl);
-    border-radius: 30px;
+    border: .0625rem solid var(--whitecl);
+    border-radius: 1.875rem;
 }
 
 a {
@@ -72,37 +72,37 @@ a {
 
 .nav {
     justify-content: space-between;
-    margin-top: 10px;
-    border-bottom: 1px solid var(--whitecl);
-    padding: 10px 30px;
+    margin-top: .625rem;
+    border-bottom: .0625rem solid var(--whitecl);
+    padding: .625rem 1.875rem;
 }
 
 .nav__left {
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .nav__left img {
-    width: 40px;
+    width: 2.5rem;
 }
 
 .nav__left h1 {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 
 .nav__right a {
     position: relative;
-    padding: 0 10px;
-    margin-left: 10px;
+    padding: 0 .625rem;
+    margin-left: .625rem;
 }
 
 .nav__right a::after {
     position: absolute;
     content: "";
     width: 0;
-    height: 1px;
+    height: .0625rem;
     left: 0;
-    bottom: -4px;
+    bottom: -0.25rem;
     background-color: var(--whitecl);
     transition: 0.7s;
 
@@ -118,7 +118,7 @@ a {
 
 .head {
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .head__left {
@@ -126,7 +126,7 @@ a {
 }
 
 .head__left__img img {
-    width: 300px;
+    width: 18.75rem;
     filter: grayscale(1);
     transition: 1s;
 
@@ -137,19 +137,19 @@ a {
 }
 
 .head__right h4 {
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 .head__right h1 {
-    padding: 10px 0;
+    padding: .625rem 0;
     margin: 0;
-    font-size: 40px;
-    letter-spacing: 0px;
+    font-size: 2.5rem;
+    letter-spacing: 0rem;
     transition: 1s;
 }
 
 .head__right h1:hover {
-    letter-spacing: 10px;
+    letter-spacing: .625rem;
 }
 
 .head__right h2 {
@@ -158,25 +158,25 @@ a {
 }
 
 .head__right__button {
-    padding: 10px 0;
+    padding: .625rem 0;
 
 }
 
 
 .head__right__links {
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 
 .head__right__links img {
-    width: 30px;
-    border-radius: 5px;
-    margin-top: 5px;
+    width: 1.875rem;
+    border-radius: .3125rem;
+    margin-top: .3125rem;
     transition: 0.5s;
 }
 
 .head__right__links img:hover {
-    filter: drop-shadow(0 0 5px var(--whitecl));
+    filter: drop-shadow(0 0 .3125rem var(--whitecl));
     transform: scale(1.1);
 }
 
@@ -185,7 +185,7 @@ a {
 /* -----------------------------start main----------------------------- */
 
 .main {
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 
 .main__header {
@@ -194,19 +194,19 @@ a {
 
 .main__header h3 {
     color: var(--subtext);
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 .main__header h1 {
     margin: 0;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .main__cards {
     display: flex;
     justify-content: center;
-    column-gap: 50px;
-    margin-top: 20px;
+    column-gap: 3.125rem;
+    margin-top: 1.25rem;
     flex-wrap: wrap;
 
 }
@@ -214,30 +214,31 @@ a {
 .main__cards__card {
     width: 100%;
     background-color: var(--bgcard);
-    padding: 20px;
-    border-radius: 25px;
+    padding: 1.25rem;
+    border-radius: 1.5625rem;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .main__cards__card:hover {
     transform: scale(1.1);
-    filter: drop-shadow(0 5px 10px var(--whitecl));
+    filter: drop-shadow(0 .3125rem .625rem var(--whitecl));
 
 }
 
 .main__cards__card__img {
     background-color: #00000063;
-    padding: 5px;
-    border-radius: 10px;
+    padding: .3125rem;
+    border-radius: .625rem;
 }
 
 
 .main__cards__card__img img {
-    border-radius: 10px;
-    height: 140px;
-    filter: blur(2px);
-    width: 300px;
+    border-radius: .625rem;
+    height: 8.75rem;
+    filter: blur(.125rem);
+    width: 18.75rem;
+    transition: filter 1.2s;
 }
 
 .main__cards__card:hover img {
@@ -245,29 +246,29 @@ a {
 }
 
 .main__cards__card__img h6 {
-    padding: 10px 0;
+    padding: .625rem 0;
 }
 
 .main__cards__card__description h2 {
-    font-size: 15px;
-    line-height: 30px;
+    font-size: .9375rem;
+    line-height: 1.875rem;
     text-align: center;
 }
 
 .main__cards__card__button {
-    gap: 10px;
+    gap: .625rem;
     justify-content: center;
 }
 
 .main__cards__card__button button {
-    padding: 10px 20px;
-    font-size: 10px;
-    width: 90px;
+    padding: .625rem 1.25rem;
+    font-size: .625rem;
+    width: 5.625rem;
 }
 
 .main__cards__card__button button:hover {
-    padding: 10px 25px;
-    font-size: 13px;
+    padding: .625rem 1.5625rem;
+    font-size: .8125rem;
 }
 
 /* -----------------------------end main----------------------------- */
@@ -275,7 +276,7 @@ a {
 /* -----------------------------start footer----------------------------- */
 
 .footer {
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .footer__header {
@@ -284,42 +285,42 @@ a {
 
 .footer__header h3 {
     color: var(--subtext);
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 .footer__header h1 {
     margin: 0;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .footer__mail {
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     background-color: var(--bgcard);
     width: fit-content;
     margin: auto;
-    padding: 10px 30px;
-    border-radius: 10px;
-    margin-top: 10px;
+    padding: .625rem 1.875rem;
+    border-radius: .625rem;
+    margin-top: .625rem;
     transition: 0.7s;
 }
 
 .footer__mail:hover {
-    filter: drop-shadow(0 0 5px var(--whitecl));
+    filter: drop-shadow(0 0 .3125rem var(--whitecl));
 }
 
 .footer__mail__a {
-    gap: 10px;
+    gap: .625rem;
 }
 
 .footer__mail img {
     background-color: var(--maintext);
-    padding: 5px;
-    border-radius: 5px;
+    padding: .3125rem;
+    border-radius: .3125rem;
 }
 
 .footer__copyright {
-    margin: 30px 0;
+    margin: 1.875rem 0;
     color: var(--subtext);
 }
 
@@ -328,7 +329,7 @@ a {
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 56.25rem) {
     .container {
         width: 95%;
     }
@@ -344,13 +345,13 @@ a {
     }
 
     .head__left {
-        margin-top: 30px;
+        margin-top: 1.875rem;
 
     }
 
     .main__cards {
         align-items: center;
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .main__cards__card {
@@ -358,79 +359,79 @@ a {
     }
 
     .main__cards__card__img img {
-        width: 240px;
-        height: 160px;
+        width: 15rem;
+        height: 10rem;
     }
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
     body {
-        font-size: 15px;
+        font-size: .9375rem;
     }
 
     .container {
         width: 100%;
-        padding: 0 5px;
+        padding: 0 .3125rem;
     }
 
     .nav {
         flex-direction: column;
-        padding: 10px 10px;
-        gap: 10px;
+        padding: .625rem .625rem;
+        gap: .625rem;
         align-items: center;
     }
 
     .nav__left {
         justify-content: center;
-        gap: 10px;
+        gap: .625rem;
     }
 
     .nav__right {
         justify-content: center;
-        margin-top: 10px;
+        margin-top: .625rem;
     }
 
     .head {
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 
     .head__left__img img {
-        width: 180px;
+        width: 11.25rem;
     }
 
     .head__right h1 {
-        font-size: 28px;
+        font-size: 1.75rem;
     }
 
     .main__header h1,
     .footer__header h1 {
-        font-size: 28px;
+        font-size: 1.75rem;
     }
 
     .main__cards__card__img img {
-        width: 240px;
-        height: 160px;
+        width: 15rem;
+        height: 10rem;
     }
 
     .main__cards__card {
-        padding: 10px;
-        border-radius: 15px;
+        padding: .625rem;
+        border-radius: .9375rem;
         width: 100%;
     }
 
     .footer {
-        margin-top: 40px;
+        margin-top: 2.5rem;
     }
 
     .footer__mail {
-        padding: 10px 30px;
-        font-size: 14px;
+        padding: .625rem 1.875rem;
+        font-size: .875rem;
     }
 
     .footer__copyright {
         display: flex;
         text-align: center;
-        font-size: 10px;
+        font-size: .625rem;
     }
 }
