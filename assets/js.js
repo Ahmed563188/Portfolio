@@ -26,8 +26,8 @@ function renderCard(cardData) {
                     <div class="main__cards__card__description">
                         <h2>${cardData.title}</h2>
                         <div class="main__cards__card__button display-h">
-                            <button class="main__button"><a href="">Github</a></button>
-                            <button class="main__button"><a href="">Demo</a></button>
+                            <button class="main__button"><a href="${cardData.github}" target="_blank">Github</a></button>
+                            <button class="main__button"><a href="${cardData.demo}" target="_blank">Demo</a></button>
                         </div>
                     </div>
                 </div>

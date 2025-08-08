@@ -294,9 +294,9 @@ a {
     justify-content: center;
     margin-bottom: 20px;
     background-color: var(--bgcard);
-    width: 35%;
+    width: fit-content;
     margin: auto;
-    padding: 10px 0;
+    padding: 10px 30px;
     border-radius: 10px;
     margin-top: 10px;
     transition: 0.7s;
@@ -319,4 +319,116 @@ a {
 .footer__copyright {
     margin: 30px 0;
     color: var(--subtext);
+}
+
+
+
+
+/* Tablets (max-width: 900px) */
+@media (max-width: 900px) {
+    .container {
+        width: 95%;
+    }
+
+    .display-h {
+        align-items: stretch;
+    }
+
+    .head__left,
+    .head__right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .head__left {
+        margin-top: 30px;
+
+    }
+
+    .main__cards {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .main__cards__card {
+        width: 100%;
+    }
+
+    .main__cards__card__img img {
+        width: 240px;
+        height: 160px;
+    }
+
+}
+
+/* Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+    body {
+        font-size: 15px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .nav {
+        flex-direction: column;
+        padding: 10px 10px;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .nav__left {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav__right {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .head {
+        margin-top: 20px;
+    }
+
+    .head__left__img img {
+        width: 180px;
+    }
+
+    .head__right h1 {
+        font-size: 28px;
+    }
+
+    .main__header h1,
+    .footer__header h1 {
+        font-size: 28px;
+    }
+
+    .main__cards__card__img img {
+        width: 240px;
+        height: 160px;
+    }
+
+    .main__cards__card {
+        padding: 10px;
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 40px;
+    }
+
+    .footer__mail {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .footer__copyright {
+        display: flex;
+        text-align: center;
+        font-size: 10px;
+    }
 }

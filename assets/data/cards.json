@@ -2,17 +2,24 @@
   {
     "image":"assets/images/Clarity.jpg",
     "title": "Clarity Landing Page",
-    "languages": "HTML & CSS" 
+    "languages": "HTML & CSS",
+    "github":"https://github.com/Ahmed563188/Clarity",
+    "demo":"https://ahmed563188.github.io/Clarity/"
   },
   {
     "image":"assets/images/Lockscout.jpg",
     "title": "Lockscout Landing Page",
-    "languages": "HTML & CSS" 
-        
+    "languages": "HTML & CSS",
+    "github":"https://github.com/Ahmed563188/LockScout",
+    "demo":"https://ahmed563188.github.io/LockScout/"
+
   },
   {
     "image":"assets/images/Fashion-E-commerce.jpg",
     "title": "Fashion-E-commerce",
-    "languages": "HTML & CSS & JS" 
+    "languages": "HTML & CSS & JS",
+    "github":"https://github.com/iti-frontend/Fashion-ecommerce",
+    "demo":"https://iti-frontend.github.io/Fashion-ecommerce/"
+
   }
 ]
