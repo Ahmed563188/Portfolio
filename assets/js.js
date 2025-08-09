@@ -1,6 +1,6 @@
 let cardContainer = document.getElementById("cardContainer")
 
-async function getCategories() {
+async function getCards() {
     try {
         const res = await fetch("assets/data/cards.json")
         const finalRes = await res.json()
@@ -12,7 +12,7 @@ async function getCategories() {
         console.log(`error`, error)
     }
 }
-getCategories()
+getCards()
 
 function renderCard(cardData) {
     const card = document.createElement("div")

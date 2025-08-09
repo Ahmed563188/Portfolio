@@ -9,7 +9,7 @@
   {
     "image":"assets/images/Lockscout.jpg",
     "title": "Lockscout Landing Page",
-    "languages": "HTML & CSS",
+    "languages": "HTML5 & CSS3",
     "github":"https://github.com/Ahmed563188/LockScout",
     "demo":"https://ahmed563188.github.io/LockScout/"
 
@@ -17,7 +17,7 @@
   {
     "image":"assets/images/Fashion-E-commerce.jpg",
     "title": "Fashion-E-commerce",
-    "languages": "HTML & CSS & JS",
+    "languages": "HTML5 & CSS3",
     "github":"https://github.com/iti-frontend/Fashion-ecommerce",
     "demo":"https://iti-frontend.github.io/Fashion-ecommerce/"
 
@@ -25,9 +25,17 @@
     {
     "image":"assets/images/calculator.jpg",
     "title": "Calculator",
-    "languages": "HTML & CSS & JS",
+    "languages": "HTML5 & CSS3 & JS",
     "github":"https://github.com/Ahmed563188/Calculator",
     "demo":"https://ahmed563188.github.io/Calculator/"
+  },
+      {
+    "image":"assets/images/Weather.jpg",
+    "title": "Weather App",
+    "languages": "HTML5 & CSS3 & JS",
+    "github":"https://github.com/Ahmed563188/Weather-App",
+    "demo":"https://ahmed563188.github.io/Weather-App/"
   }
+
 
 ]
