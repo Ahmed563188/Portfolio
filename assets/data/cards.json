@@ -21,5 +21,13 @@
     "github":"https://github.com/iti-frontend/Fashion-ecommerce",
     "demo":"https://iti-frontend.github.io/Fashion-ecommerce/"
 
+  },
+    {
+    "image":"assets/images/calculator.jpg",
+    "title": "Calculator",
+    "languages": "HTML & CSS & JS",
+    "github":"https://github.com/Ahmed563188/Calculator",
+    "demo":"https://ahmed563188.github.io/Calculator/"
   }
+
 ]
