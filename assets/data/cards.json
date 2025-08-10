@@ -1,13 +1,13 @@
 [
   {
-    "image":"assets/images/Clarity.jpg",
+    "image":"assets/images/Clarity.webp",
     "title": "Clarity Landing Page",
     "languages": "HTML & CSS",
     "github":"https://github.com/Ahmed563188/Clarity",
     "demo":"https://ahmed563188.github.io/Clarity/"
   },
   {
-    "image":"assets/images/Lockscout.jpg",
+    "image":"assets/images/Lockscout.webp",
     "title": "Lockscout Landing Page",
     "languages": "HTML5 & CSS3",
     "github":"https://github.com/Ahmed563188/LockScout",
@@ -15,7 +15,7 @@
 
   },
   {
-    "image":"assets/images/Fashion-E-commerce.jpg",
+    "image":"assets/images/Fashion-E-commerce.webp",
     "title": "Fashion-E-commerce",
     "languages": "HTML5 & CSS3 & JS",
     "github":"https://github.com/iti-frontend/Fashion-ecommerce",
@@ -23,21 +23,21 @@
 
   },
     {
-    "image":"assets/images/calculator.jpg",
+    "image":"assets/images/calculator.webp",
     "title": "Calculator",
     "languages": "HTML5 & CSS3 & JS",
     "github":"https://github.com/Ahmed563188/Calculator",
     "demo":"https://ahmed563188.github.io/Calculator/"
   },
       {
-    "image":"assets/images/Weather.jpg",
+    "image":"assets/images/Weather.webp",
     "title": "Weather App",
     "languages": "HTML5 & CSS3 & JS",
     "github":"https://github.com/Ahmed563188/Weather-App",
     "demo":"https://ahmed563188.github.io/Weather-App/"
   },
         {
-    "image":"assets/images/Notes-App.jpg",
+    "image":"assets/images/Notes-App.webp",
     "title": "Notes App",
     "languages": "HTML5 & CSS3 & JS",
     "github":"https://ahmed563188.github.io/Notes-App/",
