@@ -35,7 +35,15 @@
     "languages": "HTML5 & CSS3 & JS",
     "github":"https://github.com/Ahmed563188/Weather-App",
     "demo":"https://ahmed563188.github.io/Weather-App/"
+  },
+        {
+    "image":"assets/images/Notes-App.jpg",
+    "title": "Notes App",
+    "languages": "HTML5 & CSS3 & JS",
+    "github":"https://ahmed563188.github.io/Notes-App/",
+    "demo":"https://github.com/Ahmed563188/Notes-App/"
   }
+
 
 
 ]
