@@ -37,13 +37,20 @@
     "demo":"https://ahmed563188.github.io/Weather-App/"
   },
         {
+    "image":"assets/images/QR-genertor.webp",
+    "title": "QR-genertor App",
+    "languages": "HTML5 & CSS3 & JS",
+    "github":"https://github.com/Ahmed563188/QR-generator",
+    "demo":"https://ahmed563188.github.io/QR-generator/"
+  },
+
+  {
     "image":"assets/images/Notes-App.webp",
     "title": "Notes App",
     "languages": "HTML5 & CSS3 & JS",
-    "github":"https://ahmed563188.github.io/Notes-App/",
-    "demo":"https://github.com/Ahmed563188/Notes-App/"
+    "github":"https://github.com/Ahmed563188/Notes-App/",
+    "demo":"https://ahmed563188.github.io/Notes-App/"
   }
-
 
 
 ]
