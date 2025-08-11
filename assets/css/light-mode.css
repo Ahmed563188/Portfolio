@@ -1,0 +1,19 @@
+.dark-mode {
+    --whitecl: #000;
+    --maintext: #dddddd;
+    --subtext: #303030;
+    --btnbg: #333;
+    --bggradient: linear-gradient(135deg, #ffffff, #dadada, #969696);
+    --bgcard: #ffffff3b;
+    --whitebtn: #fff;
+    --iconcl: #050505;
+}
+
+a {
+    color: var(--whitebtn);
+}
+
+#light-mode,
+#dark-mode {
+    cursor: pointer;
+}

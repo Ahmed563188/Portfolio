@@ -3,8 +3,10 @@
     --maintext: #333;
     --subtext: #bebebe;
     --btnbg: #333;
-    --bggradient: linear-gradient(135deg, #252525, #696969, #cacaca);
+    --bggradient: linear-gradient(135deg, #252525, #4d4d4d, #818181);
     --bgcard: #ffffff3b;
+    --whitebtn: #fff;
+    --iconcl: #ffffff;
 }
 
 * {
@@ -47,7 +49,7 @@ body {
 .main__button {
     padding: .625rem 2.5rem;
     background-color: var(--btnbg);
-    color: var(--whitecl);
+    color: var(--maintext);
     border: 0;
     border-radius: 1.875rem;
     cursor: pointer;
@@ -61,9 +63,32 @@ body {
     border-radius: 1.875rem;
 }
 
+.sub__button {
+    padding: .625rem 2.5rem;
+    background-color: var(--whitecl);
+    color: var(--maintext);
+    border: 0;
+    border-radius: 1.875rem;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.sub__button:hover {
+    padding: .625rem 3.75rem;
+    background-color: transparent;
+    border: .0625rem solid var(--whitecl);
+    border-radius: 1.875rem;
+    color: var(--whitecl);
+}
+
 a {
     text-decoration: none;
     color: var(--whitecl);
+}
+
+.display-n {
+    display: none;
 }
 
 /* -----------------------------frame----------------------------- */
@@ -166,6 +191,8 @@ a {
     transform: translateX(-50%) scale(1);
 }
 
+
+
 /* -----------------------------end nav----------------------------- */
 
 /* -----------------------------start head----------------------------- */
@@ -211,13 +238,9 @@ a {
     padding: .625rem 0;
     margin: 0;
     font-size: 2.5rem;
-    letter-spacing: 0rem;
     transition: 1s;
 }
 
-.head__right h1:hover {
-    letter-spacing: .625rem;
-}
 
 .head__right h2 {
     color: var(--subtext);
@@ -226,7 +249,6 @@ a {
 
 .head__right__button {
     padding: .625rem 0;
-
 }
 
 
@@ -278,7 +300,10 @@ a {
     color: var(--subtext);
     border-left: .0625rem solid;
     padding-left: 30px;
-    text-indent: 3.125rem;
+}
+
+.exp {
+    scroll-padding: 800px;
 }
 
 .main__exp__content {
@@ -289,7 +314,6 @@ a {
     color: var(--subtext);
     border-left: 1px solid;
     padding-left: 1.875rem;
-    text-indent: 3.125rem;
 }
 
 .main__exp__content__head {
@@ -301,7 +325,7 @@ a {
 .main__exp__content__head img {
     width: 2.5rem;
     height: 2.5rem;
-    background-color: var(--whitecl);
+    background-color: #fff;
     padding: .625rem;
     border-radius: 50%;
 }
@@ -335,7 +359,7 @@ a {
 
 .main__tech__i i {
     font-size: 3rem;
-    color: var(--maintext);
+    color: var(--iconcl);
     padding: 1rem;
     border-radius: 0.8rem;
     transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease, filter 0.3s ease;
@@ -346,7 +370,7 @@ a {
     color: var(--whitecl);
 
     transform: scale(1.2);
-    filter: drop-shadow(0 0 10px var(--whitecl));
+    filter: drop-shadow(0 0 10px #9b9b9b);
 }
 
 .main__Projects h1 {
@@ -416,6 +440,7 @@ a {
     padding: .625rem 1.25rem;
     font-size: .625rem;
     width: 5.625rem;
+    color: var(--maintext);
 }
 
 .main__cards__card__button button:hover {
@@ -465,6 +490,7 @@ a {
 
 .footer__mail__a {
     gap: .625rem;
+    color: var(--maintext);
 }
 
 .footer__mail img {
@@ -563,6 +589,20 @@ a {
         width: 15rem;
         height: 10rem;
     }
+
+    .main__about__content p {
+        font-size: 15px;
+    }
+
+    .main__exp__content__head__text h2 {
+        font-size: 18px;
+    }
+
+    .main__exp__content p {
+        font-size: 15px;
+    }
+
+    ;
 }
 
 

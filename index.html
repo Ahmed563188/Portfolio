@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/light-mode.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="icon" type="image\head" href="assets/images/my logo.webp">
     <title>Portfolio</title>
@@ -18,7 +19,7 @@
 
         <nav class="nav display-h">
             <div class="nav__left display-h">
-                <img src="assets/images/my logo.webp" alt="">
+                <img src="assets/images/my logo.webp" alt="" id="logo">
             </div>
             <div class="nav__right">
                 <a href="#" data-tooltip="Home">
@@ -38,7 +39,11 @@
                 <a href="#contact" data-tooltip="Contact">
                     <i class="fa-solid fa-envelope"></i>
                 </a>
-
+                <a data-tooltip="Light" id="light-mode">
+                    <i class="fa-solid fa-sun light__mode"></i>
+                </a>
+                <a data-tooltip="Dark" class="display-n" id="dark-mode">
+                    <i class="fa-solid fa-moon dark__mode "></i></a>
             </div>
         </nav>
 
@@ -57,7 +62,7 @@
                 <h1>Ahmed</h1>
                 <h2>Front-End Developer</h2>
                 <div class="head__right__button">
-                    <button class="main__button">My CV</button>
+                    <button class="sub__button">My CV</button>
                 </div>
                 <div class="head__right__links display-h">
                     <a href="https:\\www.linkedin.com/in/abdelmottalie" target="_blank"><img
@@ -71,68 +76,88 @@
 
         <!----------------------------------- start main ----------------------------------->
         <section class="main">
-
-            <div class="main__about" id="about">
-                <h1>About Me</h1>
-            </div>
-
-            <div class="main__about__content">
-                <p>I’m a passionate and detail-oriented web developer with a strong focus on creating clean, modern,
-                    and
-                    user-friendly websites. I enjoy turning creative ideas into functional digital experiences, blending
-                    design with performance. Always eager to learn and adapt to new technologies, I aim to deliver
-                    high-quality solutions that make an impact.
-                </p><br>
-                <p>Turning ideas into reality is what drives me. As a web developer, I blend design and technology to
-                    create experiences that are not only functional but also delightful to use. Every project is a
-                    chance to innovate.
-                </p>
-
-            </div>
-
-            <div class="main__exp" id="exp">
-                <h1 id="exp">Experience</h1>
-            </div>
-
-            <div class="main__exp__content">
-                <div class="main__exp__content__head ">
-                    <img src="assets/images/iti.jpg" alt="">
-                    <div class="main__exp__content__head__text">
-                        <h2>Front-End & Cross Platform Mobile Development</h2>
-                        <h3>at Information Technology Institute (ITI)</h3>
-                    </div>
+            <!-- about -->
+            <div class="about">
+                <div class="main__about" id="about">
+                    <h1>About Me</h1>
                 </div>
-                <p>Participating in an intensive 5-month scholarship program provided by the Ministry of Communications
-                    through ITI, focusing on advanced front-end technologies, cross-platform mobile development, and
-                    real-world software engineering practices.</p>
+
+                <div class="main__about__content">
+                    <p>I’m a passionate and detail-oriented web developer with a strong focus on creating clean, modern,
+                        and
+                        user-friendly websites. I enjoy turning creative ideas into functional digital experiences,
+                        blending
+                        design with performance. Always eager to learn and adapt to new technologies, I aim to deliver
+                        high-quality solutions that make an impact.
+                    </p><br>
+                    <p>Turning ideas into reality is what drives me. As a web developer, I blend design and technology
+                        to
+                        create experiences that are not only functional but also delightful to use. Every project is a
+                        chance to innovate.
+                    </p>
+                </div>
             </div>
 
-            <div class="main__tech" id="tech">
-                <h1 id="tech">Tech Stack</h1>
+            <!-- about -->
+
+            <!-- exp -->
+
+            <div class="exp">
+                <div class="main__exp" id="exp">
+                    <h1 id="exp">Experience</h1>
+                </div>
+
+                <div class="main__exp__content">
+                    <div class="main__exp__content__head ">
+                        <img src="assets/images/iti.jpg" alt="">
+                        <div class="main__exp__content__head__text">
+                            <h2>Front-End & Cross Platform Mobile Development</h2>
+                            <h3>at Information Technology Institute (ITI)</h3>
+                        </div>
+                    </div>
+                    <p>Participating in an intensive 5-month scholarship program provided by the Ministry of
+                        Communications
+                        through ITI, focusing on advanced front-end technologies, cross-platform mobile development, and
+                        real-world software engineering practices.</p>
+                </div>
+            </div>
+            <!-- exp -->
+
+            <!-- tech -->
+
+            <div class="tech">
+                <div class="main__tech" id="tech">
+                    <h1 id="tech">Tech Stack</h1>
+                </div>
+
+                <div class="main__tech__i">
+                    <i class="devicon-html5-plain"></i>
+                    <i class="devicon-css3-plain "></i>
+                    <i class="devicon-javascript-plain "></i>
+                    <i class="devicon-typescript-plain "></i>
+                    <i class="devicon-figma-plain "></i>
+                    <i class="devicon-git-plain "></i>
+                    <i class="devicon-github-plain "></i>
+                </div>
             </div>
 
-            <div class="main__tech__i">
-                <i class="devicon-html5-plain"></i>
-                <i class="devicon-css3-plain "></i>
-                <i class="devicon-javascript-plain "></i>
-                <i class="devicon-typescript-plain "></i>
-                <i class="devicon-figma-plain "></i>
-                <i class="devicon-git-plain "></i>
-                <i class="devicon-github-plain "></i>
+            <!-- tech -->
 
+            <!-- projects -->
 
+            <div class="projects">
+                <div class="main__Projects" id="projects">
+                    <h3>View My Latest</h3>
+                    <h1>Projects</h1>
+                </div>
 
+                <section class="main__cards  display-h" id="cardContainer">
+                </section>
             </div>
-
-
-            <div class="main__Projects" id="projects">
-                <h3>View My Latest</h3>
-                <h1>Projects</h1>
-            </div>
-
-            <section class="main__cards  display-h" id="cardContainer">
-            </section>
         </section>
+
+        <!-- projects -->
+
 
         <!----------------------------------- end main ----------------------------------->
 
@@ -154,7 +179,8 @@
         </Section>
 
     </div>
-    <script src=" assets/js.js"></script>
+    <script src="assets/js/js.js"></script>
+    <script src="assets/js/light-mode.js"></script>
 </body>
 
 </html>
