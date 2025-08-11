@@ -43,6 +43,13 @@
     "github":"https://github.com/Ahmed563188/QR-generator",
     "demo":"https://ahmed563188.github.io/QR-generator/"
   },
+        {
+    "image":"assets/images/Email-Subscription-Form.webp",
+    "title": "Email Subscription Form",
+    "languages": "HTML5 & CSS3 & JS",
+    "github":"https://github.com/Ahmed563188/Subscription-form",
+    "demo":"https://ahmed563188.github.io/Subscription-form/"
+  },
 
   {
     "image":"assets/images/Notes-App.webp",
