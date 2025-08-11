@@ -3,7 +3,7 @@
     --maintext: #333;
     --subtext: #bebebe;
     --btnbg: #333;
-    --bggradient: linear-gradient(135deg, #252525, #4d4d4d, #818181);
+    --bggradient: linear-gradient(135deg, #252525, #4d4d4d, #6b6b6b);
     --bgcard: #ffffff3b;
     --whitebtn: #fff;
     --iconcl: #ffffff;
@@ -101,7 +101,7 @@ a {
     left: 1.25rem;
     transform: translateY(-50%);
     width: 70px;
-    background-color: var(--subtext);
+    background-color: var(--whitecl);
     border-radius: 2.1875rem;
     padding: 1rem 0;
     display: flex;
@@ -367,7 +367,7 @@ a {
 }
 
 .main__tech__i i:hover {
-    color: var(--whitecl);
+    color: #fff;
 
     transform: scale(1.2);
     filter: drop-shadow(0 0 10px #9b9b9b);

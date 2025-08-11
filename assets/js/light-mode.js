@@ -2,6 +2,7 @@ const body = document.body;
 const light__mode = document.getElementById("light-mode");
 const dark__mode = document.getElementById("dark-mode");
 const logo = document.getElementById("logo")
+const myphoto = document.getElementById("myphoto")
 
 function applyMode(isDark) {
     if (isDark) {
@@ -10,12 +11,14 @@ function applyMode(isDark) {
         light__mode.classList.add("display-n");
         dark__mode.classList.remove("display-n");
         logo.src = "assets/images/my logo white.webp"
+        myphoto.style.filter = "none";
     } else {
         body.classList.add("light-mode");
         body.classList.remove("dark-mode");
         light__mode.classList.remove("display-n");
         dark__mode.classList.add("display-n");
         logo.src = "assets/images/my logo.webp"
+        myphoto.style.filter = "grayscale(1)";
 
     }
 }
