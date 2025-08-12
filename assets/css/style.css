@@ -531,7 +531,7 @@ a {
 
     .nav__right {
         flex-direction: row;
-        gap: 40px;
+        gap: 1.25rem;
     }
 
     .nav__right a {
