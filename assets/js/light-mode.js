@@ -3,6 +3,9 @@ const light__mode = document.getElementById("light-mode");
 const dark__mode = document.getElementById("dark-mode");
 const logo = document.getElementById("logo")
 const myphoto = document.getElementById("myphoto")
+const linkedin = document.getElementById("linkedin")
+const github = document.getElementById("github")
+const mail = document.getElementById("mail")
 
 function applyMode(isDark) {
     if (isDark) {
@@ -10,14 +13,19 @@ function applyMode(isDark) {
         body.classList.remove("light-mode");
         light__mode.classList.add("display-n");
         dark__mode.classList.remove("display-n");
-        logo.src = "assets/images/my logo white.webp"
+        logo.src = "assets/images/mylogowhite.webp"
+        linkedin.src = "assets/images/linkedin.webp"
+        github.src = "assets/images/github.webp"
+
         myphoto.style.filter = "none";
     } else {
         body.classList.add("light-mode");
         body.classList.remove("dark-mode");
         light__mode.classList.remove("display-n");
         dark__mode.classList.add("display-n");
-        logo.src = "assets/images/my logo.webp"
+        logo.src = "assets/images/mylogo.webp"
+        linkedin.src = "assets/images/linkedinwhite.webp"
+        github.src = "assets/images/githubwhite.webp"
         myphoto.style.filter = "grayscale(1)";
 
     }
